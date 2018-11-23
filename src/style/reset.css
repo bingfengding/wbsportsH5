@@ -44,12 +44,10 @@ q:before,
 q:after {
   content: '';
 }
-
 abbr,
 acronym {
   border: 0;
 }
-
 a {
   text-decoration: none;
   color: #333333;
@@ -59,7 +57,6 @@ input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
 }
-
 input[type="number"] {
   -moz-appearance: textfield;
 }

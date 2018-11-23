@@ -23,7 +23,7 @@
           </div>
         </div>
       </div>
-      <div class="upDown" v-show="previous !== -1 && next !== -1">
+      <div class="upDown" v-show="previous !== -1 || next !== -1">
         <div class="previousBox" v-show="previous !== -1" @click="toArticle(previous,'news')">
           <div class="upDownImg">
             <img src="../image/article/2.png" alt="">

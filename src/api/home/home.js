@@ -42,7 +42,6 @@ export const news = (item)=>{
     data
   })
 }
-
 //最新赛事
 export const competition = ()=>{
   return request({
@@ -50,7 +49,6 @@ export const competition = ()=>{
     method:"post",
   })
 }
-
 //最热
 export const hot = ()=>{
   return request({
@@ -95,7 +93,6 @@ export const newsmenu = ()=>{
     method:"post",
   })
 }
-
 // 赛事菜单栏
 export const schedulemenu = ()=>{
   return request({
@@ -121,4 +118,3 @@ export const cooperation = (item)=>{
     data
   })
 }
-

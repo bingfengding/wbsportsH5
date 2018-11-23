@@ -71,14 +71,14 @@ export default {
   },
   created(){
     //  赛事
-     competition().then(res=>{
-       if(res.status ===200){
-         let _base = res.data.data
-         this.domain  = _base.domain
-         this.events = _base.competition
-         this.show = true
-       }
-     })
+    competition().then(res=>{
+      if(res.status ===200){
+        let _base = res.data.data
+        this.domain  = _base.domain
+        this.events = _base.competition
+        this.show = true
+      }
+    })
   },
   methods:{
     goto(url){
