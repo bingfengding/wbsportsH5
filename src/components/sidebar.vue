@@ -17,12 +17,11 @@
         
           <div  class="iconBox">
             <div class="fenBox">
-              <div class="bdsharebuttonbox" data-tag="share_1">
-                <a class="bds_tsina" data-cmd="tsina"></a>
-                <a class="bds_weixin" data-cmd="weixin"></a>
-                <a class="bds_linkedin" data-cmd="linkedin"></a>
-                <a class="bds_twi" data-cmd="twi"></a>
-                <a class="bds_fbook" data-cmd="fbook"></a>
+              <div class="fenItemBox" data-tag="share_1">
+               
+                <a href="https://www.instagram.com/wanbosports/" class="instagram"></a>
+                <a href="https://twitter.com/wanbosports?lang=en" class="twitter"></a>
+                <a href="https://www.facebook.com/wanbosports/" class="facebook"></a>
               </div>
             </div>
           </div>
@@ -182,7 +181,7 @@ cross-length = 950px
               display flex
               align-items center
               justify-content center
-              .bdsharebuttonbox
+              .fenItemBox
                 display flex
                 align-items center
                 a
@@ -192,23 +191,16 @@ cross-length = 950px
                   height 0.3rem
                   background-size 100% 100%
                   background-position 0
+                  display inline-block
                   &:first-of-type
                     margin-left 0
-                .bds_tsina
-
-                  background-image url("../image/menu/weibo.png")
-                  
-                .bds_weixin
-                  background-image url("../image/menu/wechat.png")
-                .bds_linkedin
-
+                .instagram
                   background-image url("../image/menu/insta.png")
-
-                .bds_twi
+                .twitter
 
                   background-image url("../image/menu/twitter.png")
 
-                .bds_fbook
+                .facebook
 
                   background-image url("../image/menu/facebook.png")
   .svgMenu
